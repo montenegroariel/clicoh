@@ -109,6 +109,8 @@ Listar productos
 Para realizar pruebas se puede importar el archivo 
 clicoh.postman_collection.json
 
+El proyecto se encuentra corriendo en http://clicoh.seostax.com/
+
 ## Construido con 🛠️
 
 
