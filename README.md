@@ -106,10 +106,8 @@ Listar productos
 
 ## Despliegue 📦
 
-El proyecto se encuentra corriendo en https://clicoh.seostax.com
-
-Para realizar pruebas en producción se puede importar el archivo 
-clicoh.postman_production.json
+Para realizar pruebas se puede importar el archivo 
+clicoh.postman_collection.json
 
 ## Construido con 🛠️
 
