@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Clicoh Ecommerce
 
 Crear una API REST utilizando DJANGO REST FRAMEWORK, que brinde la funcionalidad básica y acotada de un
@@ -126,3 +127,6 @@ clicoh.postman_production.json
 * Gracias por el template [Villanuevand](https://github.com/Villanuevand)
 ---
 
+=======
+# clicoh
+>>>>>>> 2d1b723 (first commit)
