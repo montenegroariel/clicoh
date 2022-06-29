@@ -16,7 +16,7 @@ class ProductTests(APITestCase):
         self.client.credentials(HTTP_AUTHORIZATION="Token " + self.token.key)
 
     def test_product_list(self):
-        response = self.client.get('products')
+        response = self.client.get('/products/')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
     def test_product_detail(self):
