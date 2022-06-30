@@ -19,9 +19,9 @@ class Order(models.Model):
 
     def get_total_usd(self) -> float:
         """get the value of the price in updated dollars"""
+        url = "https://www.dolarsi.com/api/api.php?type=valoresprincipales"
         try:
-            url = "https://www.dolarsi.com/api/api.php?type=valoresprincipales"
-            resp = requests.get(url, timeout=2.5).json()
+            resp = requests.get(url, timeout=5).json()
             dolar = float(str(resp[1]['casa']['compra']).replace(",", "."))
             total = OrderDetail.objects.filter(order=self.pk).aggregate(total=Sum(F('product__price')*F('cuantity'))/dolar)
             return round(total['total'], 2)
