@@ -62,7 +62,7 @@ El usuario una vez que se encuentra logeado puede dar de alta los productos con 
 El valor de la orden en dolares se consulta del sitio https://www.dolarsi.com/api/api.php?type=valoresprincipales
 
 Se puede importar en postman de manera local el archivo
-clicoh.postman_local.json
+clicoh.postman_collection.json
 
 ## Test ⚙️
 
@@ -105,9 +105,6 @@ Listar productos
 
 
 ## Despliegue 📦
-
-Para realizar pruebas se puede importar el archivo 
-clicoh.postman_collection.json
 
 El proyecto se encuentra corriendo en http://clicoh.seostax.com/
 
